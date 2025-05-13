@@ -1,1 +1,94 @@
-/*# sourceMappingURL=afp.css.map */
+/* AFP */
+body#page-local-afp-index #region-main {
+  max-width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body#page-local-afp-index #region-main .afp-wrapper {
+  padding-top: 4em;
+  /* PADDING */
+  /* END PADDING */
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-header h3 {
+  color: #fff;
+  margin: 1em 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader h3 {
+  color: #fff;
+  margin: 0 0 1em 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader .afp-userimg {
+  border-radius: var(--border-card-radius);
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader .userinfo-tabs {
+  margin-bottom: 1em;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader .userinfo-tabs .tabs .afp-tab {
+  border-radius: var(--border-tab-radius);
+  padding: 1em;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader .userinfo-tabs .tabs .afp-tab.active {
+  color: var(--color-black);
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader .userinfo-tabs .tabs .afp-tab .afp-tabicon i {
+  font-size: 13px;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper .afp-container-tab .afp-courses,
+body#page-local-afp-index #region-main .afp-wrapper .afp-featuredcourses,
+body#page-local-afp-index #region-main .afp-wrapper .afp-opencourses {
+  padding: var(--padding-y) var(--padding-x);
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper,
+body#page-local-afp-index #region-main .afp-wrapper .afp-featuredcourses-wrapper {
+  padding-bottom: 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-courses, body#page-local-afp-index #region-main .afp-wrapper .afp-featuredcourses, body#page-local-afp-index #region-main .afp-wrapper .afp-opencourses {
+  margin-bottom: 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper {
+  padding-top: calc(var(--padding-y) - 1rem);
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper .afp-container-tab {
+  padding: 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper .afp-container-tab .afp-descriptiontab {
+  padding: 0 5em;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-mycourses-wrapper .afp-container-tab .afp-courses {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader-opencourses h3 {
+  color: #fff;
+  margin: 1em 0;
+}
+body#page-local-afp-index #region-main .afp-wrapper .afp-subheader-opencourses .opencourses-tags .opencourses-tag.active {
+  background: #fff;
+  color: var(--primary);
+  border-radius: var(--border-tab-radius);
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card {
+  border-radius: var(--border-card-radius);
+  overflow: hidden;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.16);
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info {
+  padding-bottom: 0;
+  background: unset;
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .course-title, body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .progress-container {
+  margin-bottom: 0;
+  padding: 1em 1em 1.5em;
+  background: #fff;
+  color: var(--primary);
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .course-title .progress-text, body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .progress-container .progress-text {
+  color: var(--primary);
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .course-title {
+  min-height: 80px;
+}
+body#page-local-afp-index #region-main .afp-wrapper .course-card .course-info .progress-container {
+  margin-top: -1em;
+  padding: 0.5em 1em 0.75em !important;
+}/*# sourceMappingURL=afp.css.map */

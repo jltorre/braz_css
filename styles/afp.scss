@@ -1,3 +1,111 @@
+
+/* AFP */
 body#page-local-afp-index {
-    
+    #region-main {
+        max-width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+        .afp-wrapper {
+            padding-top: 4em;
+            .afp-header {
+                h3 {
+                    color: #fff;
+                    margin: 1em 0;
+                }
+            }
+            .afp-subheader {
+                h3 {
+                    color: #fff;
+                    margin: 0 0 1em 0;
+                }
+                .afp-userimg {
+                    border-radius: var(--border-card-radius);
+                }
+                .userinfo-tabs {
+                    margin-bottom: 1em;
+                    .tabs {
+                        .afp-tab {
+                            border-radius: var(--border-tab-radius);
+                            padding: 1em;
+                            &.active {
+                                color: var(--color-black);
+                            }
+                            .afp-tabicon {
+                                i {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            /* PADDING */
+            .afp-mycourses-wrapper .afp-container-tab .afp-courses,
+            .afp-featuredcourses,
+            .afp-opencourses {
+                padding: var(--padding-y) var(--padding-x);
+                
+            }
+            /* END PADDING */
+            .afp-mycourses-wrapper,
+            .afp-featuredcourses-wrapper {
+                padding-bottom: 0;
+            }
+            .afp-courses, .afp-featuredcourses, .afp-opencourses {
+                margin-bottom: 0;
+            }
+            .afp-mycourses-wrapper {
+                padding-top: calc(var(--padding-y) - 1rem);
+                .afp-container-tab {
+                    padding: 0;
+                    .afp-descriptiontab {
+                        padding: 0 5em;
+                    }
+                    .afp-courses {
+                        margin-top: 0;
+                        padding-top: 1rem;
+                    }
+                }
+            }
+            .afp-subheader-opencourses {
+                h3 {
+                    color: #fff;
+                    margin: 1em 0;
+                }
+                .opencourses-tags {
+                    .opencourses-tag.active {
+                        background: #fff;
+                        color: var(--primary);
+                        border-radius: var(--border-tab-radius);
+                    }
+                }
+            }
+            .course-card {
+                border-radius: var(--border-card-radius);
+                overflow: hidden;
+                box-shadow: 0 3px 35px rgba(0,0,0,.16);
+                .course-info {
+                    padding-bottom: 0;
+                    background: unset;
+                    .course-title, .progress-container {
+                        margin-bottom: 0;
+                        padding: 1em 1em 1.5em;
+                        background: #fff;
+                        color: var(--primary);
+                        .progress-text { 
+                            color: var(--primary);
+                        }
+                    }
+                    .course-title {
+                        min-height: 80px;
+                    }
+                    .progress-container {
+                        margin-top: -1em;
+                        padding: 0.5em 1em .75em !important;
+                    }
+                }
+            }
+        }
+    }   
 }

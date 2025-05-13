@@ -9,29 +9,21 @@
   --light-gray: #F1F7FC;
   --light-gray-hover: #e4ecf2;
   --box-border-color: #EAEAEA;
-  --border-card-radius: 40px;
-  --border-tab-radius: 20px;
-  --border-btn-radius: 30px;
-  --padding-x: 5rem;
-  --padding-y: 2rem;
-  --padding-x-xs: 2rem;
-  --padding-y-xs: 1rem;
+  --border-card-radius: 2px;
 }
 
 .theme-snap #mr-nav {
   background-color: var(--primary);
 }
-.theme-snap #mr-nav #snap-header #snap-pm-trigger.snap-my-courses-menu, .theme-snap #mr-nav #snap-header .snap-login-button {
+.theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {
   background-color: var(--secondary) !important;
   font-size: 16px;
-  padding: 0.5em 1.7em;
-  border-radius: var(--border-btn-radius) !important;
-}
-.theme-snap #mr-nav #snap-header #snap-pm-trigger.snap-my-courses-menu span, .theme-snap #mr-nav #snap-header .snap-login-button span {
-  top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 6px !important;
 }
 @media (max-width: 575.98px) {
-  .theme-snap #mr-nav #snap-header #snap-pm-trigger.snap-my-courses-menu span, .theme-snap #mr-nav #snap-header .snap-login-button span {
+  .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu span {
     display: block;
     max-width: 85px;
     word-wrap: break-word;
@@ -39,7 +31,11 @@
     text-align: center;
   }
 }
-.theme-snap #mr-nav #snap-header #snap-pm-trigger.snap-my-courses-menu:hover, .theme-snap #mr-nav #snap-header .snap-login-button:hover {
+.theme-snap #mr-nav .snap-login-button {
+  background-color: var(--secondary) !important;
+  border: none;
+}
+.theme-snap #mr-nav .snap-login-button:hover {
   background-color: var(--secondary-hover) !important;
   outline: none;
 }
@@ -669,15 +665,50 @@
   width: 32px;
   border-radius: 50%;
 }
-.theme-snap .snap-home-course {
-  border-radius: var(--border-btn-radius);
-  background: #fff;
-  padding: 0.75rem;
+
+/* COURSE LEFT MENU TOGGLE */
+/* END COURSE LEFT MENU TOGGLE */
+#snap-course-wrapper > .row.sidebar-wrapper > .col-lg-9 {
+  transition: all 0.5s ease;
 }
-.theme-snap .snap-home-course .snap-home-courses-image {
-  border-radius: calc(var(--border-btn-radius) - 8px);
+#snap-course-wrapper > .row.sidebar-wrapper > .col-lg-3 {
+  transition: all 0.5s ease;
 }
-.theme-snap .snap-home-course .card-header {
-  padding: 0.5rem 0;
-  border: none;
-}/*# sourceMappingURL=styles.css.map */
+@media screen and (min-width: 992px) {
+  #snap-course-wrapper > .row.sidebar-wrapper {
+    position: relative;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper > .col-lg-9 {
+    position: relative;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-3 {
+    margin-left: -30%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 {
+    max-width: 100%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 #region-main {
+    max-width: 95%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 #region-main .course-content {
+    max-width: 100%;
+  }
+  #snap-course-wrapper div#collapse-left-menu {
+    display: block;
+    position: absolute;
+    top: 1.6em;
+    left: 0.3em;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  #snap-course-wrapper div#collapse-left-menu svg {
+    margin-left: 15px;
+  }
+}
+
+div#collapse-left-menu {
+  display: none;
+}
+
+/* AFP *//*# sourceMappingURL=styles.css.map */

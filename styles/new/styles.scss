@@ -8,42 +8,38 @@
     --light-gray: #F1F7FC;
     --light-gray-hover: #e4ecf2;
     --box-border-color: #EAEAEA;
-    --border-card-radius: 40px;
-    --border-tab-radius: 20px;
-    --border-btn-radius: 30px;
-    --padding-x: 5rem;
-    --padding-y: 2rem;
-    --padding-x-xs: 2rem;
-    --padding-y-xs: 1rem;
+    --border-card-radius: 2px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&display=swap');
 
 .theme-snap {
     #mr-nav {
         background-color: var(--primary);
-        #snap-header {
-            #snap-pm-trigger.snap-my-courses-menu, .snap-login-button {
-                background-color: var(--secondary) !important;
-                font-size: 16px;
-                padding: .5em 1.7em;
-                border-radius: var(--border-btn-radius) !important;
+        #snap-pm-trigger.snap-my-courses-menu {
+            background-color: var(--secondary) !important;
+            font-size: 16px;
+            padding-left: 1em;
+            padding-right: 1em;
+            border-radius: 6px !important;
+            @media (max-width: 575.98px) {
                 span {
-                    top: 0;
-                    @media (max-width: 575.98px) {
-                        display: block;
-                        max-width: 85px;
-                        word-wrap: break-word;
-                        line-height: 15px;
-                        text-align: center;
-                    }
-                }
-                &:hover {
-                    background-color: var(--secondary-hover) !important;
-                    outline: none;
+                    display: block;
+                    max-width: 85px;
+                    word-wrap: break-word;
+                    line-height: 15px;
+                    text-align: center;
                 }
             }
         }
-            
+        .snap-login-button {
+            background-color: var(--secondary) !important;
+            border: none;
+            &:hover {
+                background-color: var(--secondary-hover) !important;
+                outline: none;
+            }
+
+        }
         .editmode-switch-form {
             .input-group {
                 label {
@@ -688,16 +684,68 @@
             }
         }
     }
-    .snap-home-course {
-        border-radius: var(--border-btn-radius);
-        background: #fff;
-        padding: .75rem;
-        .snap-home-courses-image {
-            border-radius: calc(var(--border-btn-radius) - 8px);
+}
+
+/* COURSE LEFT MENU TOGGLE */
+/* END COURSE LEFT MENU TOGGLE */
+#snap-course-wrapper {
+	>.row.sidebar-wrapper {
+		>.col-lg-9 {
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+		>.col-lg-3 {
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+	}
+    
+    @media screen and (min-width:992px) {
+		>.row.sidebar-wrapper {
+			position: relative;
+			>.col-lg-9 {
+				position: relative;
+			}
+		}
+		>.row.sidebar-wrapper.toggled {
+			>.col-lg-3 {
+				margin-left: -30%;
+			}
+			>.col-lg-9 {
+				max-width: 100%;
+				#region-main {
+					max-width: 95%;
+					.course-content {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+        div#collapse-left-menu {
+            display: block;
+            position: absolute;
+            top: 1.6em;
+            left: 0.3em;
+            z-index: 1;
+            cursor: pointer;
+            opacity: .5;
+            svg {
+                margin-left: 15px;
+            }
         }
-        .card-header {
-            padding: .5rem 0;
-            border: none;
-        }
-    }
+	}
+	
+}
+div#collapse-left-menu {
+	display: none;
+}
+
+
+/* AFP */
+body#page-local-afp-index {
+    
 }
