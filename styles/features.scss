@@ -1,0 +1,58 @@
+
+/* COURSE LEFT MENU TOGGLE */
+/* END COURSE LEFT MENU TOGGLE */
+#snap-course-wrapper {
+	>.row.sidebar-wrapper {
+		>.col-lg-9 {
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+		>.col-lg-3 {
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+	}
+    
+    @media screen and (min-width:992px) {
+		>.row.sidebar-wrapper {
+			position: relative;
+			>.col-lg-9 {
+				position: relative;
+			}
+		}
+		>.row.sidebar-wrapper.toggled {
+			>.col-lg-3 {
+				margin-left: -30%;
+			}
+			>.col-lg-9 {
+				max-width: 100%;
+				#region-main {
+					max-width: 95%;
+					.course-content {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+        div#collapse-left-menu {
+            display: block;
+            position: absolute;
+            top: 1.6em;
+            left: 0.3em;
+            z-index: 1;
+            cursor: pointer;
+            opacity: .5;
+            svg {
+                margin-left: 15px;
+            }
+        }
+	}
+	
+}
+div#collapse-left-menu {
+	display: none;
+}

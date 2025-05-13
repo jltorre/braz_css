@@ -1,0 +1,687 @@
+:root {
+    --primary: #192e4d;
+    --primary-light: #184475;
+    --secondary: #FF931E;
+    --secondary-hover: #c97011;
+    --gray: #D8D8D8;
+    --dark-gray: #c1c1c1;
+    --light-gray: #F1F7FC;
+    --light-gray-hover: #e4ecf2;
+    --box-border-color: #EAEAEA;
+    --border-card-radius: 2px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&display=swap');
+
+.theme-snap {
+    #mr-nav {
+        background-color: var(--primary);
+        #snap-pm-trigger.snap-my-courses-menu {
+            background-color: var(--secondary) !important;
+            font-size: 16px;
+            padding-left: 1em;
+            padding-right: 1em;
+            border-radius: 6px !important;
+            @media (max-width: 575.98px) {
+                span {
+                    display: block;
+                    max-width: 85px;
+                    word-wrap: break-word;
+                    line-height: 15px;
+                    text-align: center;
+                }
+            }
+        }
+        .snap-login-button {
+            background-color: var(--secondary) !important;
+            border: none;
+            &:hover {
+                background-color: var(--secondary-hover) !important;
+                outline: none;
+            }
+
+        }
+        .editmode-switch-form {
+            .input-group {
+                label {
+                    color: #fff !important;
+                }
+            }
+        }
+        .usermenu {
+            .dropdown {
+                a.dropdown-item {
+                    color: var(--primary);
+                    &:hover, &:focus-within, &:focus-within, &:active {
+                        background-color: var(--gray);
+                        color: var(--primary);
+                    }
+                }
+            }
+        }
+        .conversation_badge_count,
+        .count-container {
+            color: var(--primary) !important;
+        }
+        #snap-custom-menu-header {
+            nav.navbar {
+                background-color: var(--gray) !important;
+                li.nav-item a {
+                    color: #000 !important;
+                    font-size: .85em;
+                    height: 45px !important;
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.15) !important;
+                    }
+                }
+            }
+        }
+    }
+    &#page-login-index {
+        #page {
+            background-size: cover;
+            .snap-login-option {
+                border-radius: var(--border-card-radius);
+            }
+            #snap-signup {
+                a.btn {
+                    background-color: var(--secondary) !important;
+                    border: none;
+                    &:hover {
+                        background-color: var(--secondary-hover) !important;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+    &#page-site-index {
+        background-color: var(--light-gray);
+        #page-header, .carousel-slide {
+            @media (min-width: 992px) {
+                min-height: 480px;
+            }
+        }
+        #region-main-box {
+            background-color: #fff;
+        }
+        #block-region-side-pre {
+            column-count: 1;
+            padding-top: 3rem;
+            section.block {
+                .card-body {
+                    background-color: #fff;
+                    border: 1px solid var(--box-border-color);
+                    padding: 0 !important;
+                    > h5, > .card-text {
+                        padding: 1rem!important;
+                    }
+                    h5 {
+                        background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+                        color: #fff;
+                        display: block !important;
+                    }
+                }
+            }
+        }
+        .sitetopic {
+            display: none;
+        }
+    }
+    #snap-site-carousel {
+        .carousel-slide {
+            margin-top: 2em;
+            .carousel-caption {
+                display: block! important;
+                margin-top: 0;
+                background: none;
+                top: 10vh;
+                h1, p {
+                    font-family: 'Exo 2', sans-serif !important;
+                }
+                h1 {
+                    font-size: 3.6em;
+                }
+                p {
+                    font-size: 1.5em;
+                    line-height: 1.3em;
+                }
+                @media (max-width: 1460px) {
+                    h1 {
+                        font-size: 3em;
+                    }
+                    p {
+                        font-size: 1.5em;
+                    }
+                    width: 90%;
+                }
+                @media (max-width: 1200px) {
+                    h1 {
+                        font-size: 2.5em;
+                    }
+                    p {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+    #snap-feature-spots {
+        width: 100%;        
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        @media (min-width: 768px) {
+            max-width: 720px;
+        }
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+        [id^="snap-feature-"] {
+            padding: 15px;
+        }
+        .snap-feature {
+            padding: 0 !important;
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 0;
+            aspect-ratio: 1/0.75;
+            .snap-feature-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 100%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+                .snap-feature-image-wrap {
+                    display: none;
+                }
+                h3.snap-feature-title, .snap-feature-link {
+                    bottom: 0;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin: 0;
+                    padding: 20px;
+                    width: 100%;
+                    text-align: left;
+                    background: none;
+                }
+            }
+        }
+    }
+    #snap-pm {
+        background-color: var(--light-gray);
+        #snap-pm-header {
+            background-color: var(--primary);
+        }
+        #snap-pm-updates {
+            background-color: #fff;
+            border-top: 5px solid var(--secondary);
+            padding-top: 0;
+            padding-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(210, 210, 210, 0.12),0 9px 23px rgba(72, 72, 72, 0.1);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            height: fit-content;
+            border-radius: var(--border-card-radius);
+            h2 {
+                padding: 5px 0;
+                margin-top: 1em;
+                font-weight: 600;
+            }
+            section {
+                border-bottom: 1px solid var(--box-border-color);
+                padding: 20px 10px;
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+        #snap-pm-courses-current-cards {
+            margin-top: 0;
+            .coursecard {
+                &:hover {
+                    -webkit-box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgba(0,0,0,.19);
+                    box-shadow: 0 2px 10px 0 #6c757d, 0 6px 20px 0 rgba(0,0,0,.19);
+                }
+                .coursecard-contacts {
+                    position: initial;
+                    text-align: left;
+                    margin-top: 8px;
+                }
+                height: 350px;
+                width: 100%;
+                margin: 10px 0;                
+                @media (min-width: 768px) {
+                    width: 48%;
+                    margin: 10px 1%;
+                }                
+                @media (min-width: 1024px) {
+                    width: 31.3%;
+                    margin: 10px 1%;
+                }
+                @media (min-width: 1600px) {
+                    width: 23%;
+                    margin: 10px 1%;
+                }
+            }
+        }
+    }
+    #snap-course-wrapper {
+        #course-toc {
+            #toc-desktop-menu-heading {
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            .snap-section-complete {
+                width: 0.8em;
+                height: 0.8em;
+            }
+            #chapters {
+                .chapter-title {
+                    line-height: 1.5;
+                    font-size: 0.9em;
+                    font-weight: 400 !important;
+                }
+                li {
+                    padding-bottom: 1em;
+                    line-height: 1;
+                    font-weight: 300;
+                }
+            }
+            .snap-visible-section {
+                a {
+                    color: var(--primary);
+                    text-decoration: none;
+                    font-weight: 500 !important;
+                }
+            }
+            li.snap-visible-section {
+                background-color: #fff;
+                padding: 15px 0 0 20px;
+                margin: 0 0 1em;
+                position: relative;
+                border-top-left-radius: 6px;
+                border-bottom-left-radius: 6px;
+                box-shadow: 0 0 20px rgba(0,0,0,.05);
+                overflow: hidden;
+                &::after {
+                    content: "";
+                    width: 5px;
+                    position: absolute;
+                    left: 0;
+                    background: var(--secondary);
+                    top: 50%;
+                    margin-top: -19px;
+                    height: 35px;
+                }
+            }
+        }
+        .section_footer {
+            margin-top: 2em;
+            padding: 0 !important;
+            background-color: var(--light-gray);
+            height: auto;
+            display: flex;
+            border-radius: 7px;
+            border: 1px solid var(--box-border-color) !important;
+            display: inline-block;
+            width: 100%;
+        }
+        #toc-desktop-menu-heading {
+            border-bottom: 0px solid var(--box-border-color);
+        }
+        margin: 0;
+        .row {
+            display: inline-flex;
+            margin: 0 !important;
+            width: 100%;
+        }
+        #chapters {
+            overflow: hidden;
+            li.draft {
+                .chapter-title {
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .col-lg-3 {
+            background-color: var(--light-gray);
+            @media (min-width: 992px) {
+                flex: 0 0 30%;
+                max-width: 30%;
+                margin-left: 0;
+                padding-left: 4%;
+                padding-right: 0;
+            }
+        }
+        
+        .col-lg-9 {
+            @media (min-width: 992px) {
+                flex: 0 0 100%;
+                max-width: 70%;
+                padding-left: 0%;
+            }
+        }
+        .toc-footer {
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+    }
+    .course-content {
+        max-width: 60em;
+        h2.sectionname {
+            padding-left: 20px;
+            font-size: 1.5rem;
+            position: relative;
+            margin-bottom: 2rem;
+            &:after {
+                content: "";
+                width: 4px;
+                position: absolute;
+                left: 0;
+                background: var(--secondary);
+                top: 50%;
+                margin-top: -19px;
+                height: 35px;
+            }
+        }
+    }
+    &#page-enrol-programs-catalogue-index {
+        .programbox {
+            background-color: #fff;
+        }
+    }
+    &#page-enrol-programs-catalogue-program,
+    &#page-enrol-programs-catalogue-index,
+    &#page-enrol-programs-my-program {
+        background-color: var(--light-gray);
+        #region-main {
+            background-color: unset;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .snap-page-heading-button,
+        .programbox dl.row {
+            display: none;
+        }
+        .programbox {
+            padding: 0;
+            margin-bottom: 3rem;
+            a .content .summary {
+                padding: 0 1rem;
+                font-size: .8em;
+                opacity: .85;
+            }
+            .newprogramimage {
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                height: 100%;
+                border-radius: 4px;
+                overflow: hidden;
+                min-height: 150px;
+            }
+            > h3 {
+                font-size: 1.25rem;
+            }
+            > .info {
+                background-color: #fff;
+                padding: 1rem;
+                border-radius: var(--border-card-radius);
+                margin-bottom: 2rem;
+                .programname {
+                    font-size: 1.5rem;
+                }
+                .summary {
+                    font-size: .8em;
+                    opacity: .85;
+                }
+            }
+            .generaltable {
+                background-color: #fff;
+                thead th {
+                    background-color: var(--gray);
+                    text-transform: uppercase;
+                    font-size: .85em;
+                }
+                tr {
+                    background-color: unset;
+                    border: none;
+                    &:hover {
+                        background-color: var(--light-gray);
+                    }
+                    td {
+                        border: none;
+                    }
+                }
+                border-bottom: 2px solid #dee2e6;
+            }
+        }
+    }
+    &#page-enrol-programs-my-index {
+        #region-main {
+            display: flex;
+            flex-direction: column-reverse;
+            .generaltable {
+                border-bottom: 2px solid #dee2e6;
+            }
+        }
+    }
+    .course-content {
+        ul.section {
+            li.snap-activity,
+            li.snap-resource {
+                border-radius: 6px;
+                border: 1px solid var(--box-border-color);
+                .snap-assettype {
+                    font-weight: bold;
+                }
+                &.modtype_forum,
+                &.modtype_chat, 
+                &.modtype_hsuforum {
+                    &:hover {
+                        border-color:  #8bc34a;
+                    }
+                    .snap-assettype {
+                        color:#8bc34a;
+                    }
+                }
+                &.modtype_assign,
+                &.modtype_assignment,
+                &.modtype_workshop {
+                    &:hover {
+                        border-color:#03a9f4;
+                    }
+                    .snap-assettype {
+                        color:#03a9f4;
+                    }
+                }
+                &.modtype_choice,
+                &.modtype_feedback,
+                &.modtype_quiz,
+                &.modtype_survey,
+                &.modtype_questionnaire,
+                &.modtype_lesson {
+                    &:hover {
+                        border-color:#ffa000;
+                    }
+                    .snap-assettype {
+                        color:#ffa000;
+                    }
+                }
+                
+                &.snap-mime-pdf, 
+                &.snap-mime-flash, 
+                &.snap-mime-eps {
+                    &:hover {
+                        border-color:#f44336;
+                    }
+                    .snap-assettype {
+                        color:#f44336;
+                    }
+                }
+                &.modtype_data,
+                &.modtype_glossary,
+                &.modtype_wiki {
+                    &:hover {
+                        border-color:#009688;
+                    }
+                    .snap-assettype {
+                        color:#009688;
+                    }
+                }
+                &.modtype_imscp, &.modtype_scorm {
+                    &:hover {
+                        border-color: #f7981d;
+                    }
+                    .snap-assettype {
+                        color:#f7981d;
+                    }
+                }
+                &.modtype_folder {
+                    &:hover {
+                        border-color: #fed859;
+                    }
+                    .snap-assettype {
+                        color:#fed859;
+                    }
+                }
+                &.modtype_url {
+                    &:hover {
+                        border-color: #999999;
+                    }
+                    .snap-assettype {
+                        color:#999999;
+                    }
+                }
+            }
+        }
+    }
+    #coursetools-list {
+        li {
+            background-color: var(--light-gray);
+            border: 1px solid var(--box-border-color);
+            box-shadow: none;
+            a {
+                font-size: .9em;
+            }
+            &:hover {
+                background-color: var(--light-gray-hover);
+                a {
+                    color: #000;
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+    #snap-course-wrapper {
+        .section_footer {
+            .text {
+                font-size: .9em;
+            }
+            .nav_icon {
+                width: 50px;
+                padding: 0.3em 0;
+                .icon-arrow-left:before,
+                .icon-arrow-right:before {
+                    height: 0.5em;
+                    margin: 0.3em auto;
+                }
+            }
+        }
+    }
+    &.pagelayout-course {
+        .block-region {
+            .block {
+                .card-body{
+                    background-color: #fff;
+                    border: 1px solid var(--box-border-color);
+                    padding: 0 !important;
+                    > h5, > .card-text {
+                        padding: 1rem!important;
+                    }
+                    h5 {
+                        background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+                        color: #fff;
+                        display: block !important;
+                    }
+                }
+            }
+        }
+    }
+    #snap-course-footer {
+        margin-top: 0;
+    }
+    #moodle-footer {
+        padding: 0;
+        #snap-footer-content {
+            background: #184170;
+            padding-bottom: 0;
+        }
+        .bottom-footer {
+            background-color: #01011b;
+            font-size: 0.8em;
+        }
+        #mrooms-footer, #page-footer {
+            display: none;
+        }
+        .langmenu {
+            margin-bottom: 10px;
+        }
+        .app-icons {
+            font-size: 3em;
+        }
+        article {
+            font-size: .9em;
+            a {
+                font-weight: 100;
+            }
+        }
+        ul.menu-social {
+            list-style: none;
+            padding: 0;
+            li {
+                margin: 0 .5rem !important;
+            }
+        }
+        .chatbot {
+            position: fixed;
+            z-index: 99999999;
+        }
+        .ccw_plugin {
+            position: fixed;
+            z-index: 99999999;
+            .inline {
+                display: inline;
+            }
+            .style-4.chip {
+                display: inline-block;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                border-radius: 25px;
+                font-size: 13px;
+                line-height: 32px;
+                background-color: #e4e4e4;
+                color: rgba(0, 0, 0, 0.6);
+                img {
+                    float: left;
+                    margin: 0 8px 0 -12px;
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

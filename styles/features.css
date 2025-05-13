@@ -1,0 +1,44 @@
+/* COURSE LEFT MENU TOGGLE */
+/* END COURSE LEFT MENU TOGGLE */
+#snap-course-wrapper > .row.sidebar-wrapper > .col-lg-9 {
+  transition: all 0.5s ease;
+}
+#snap-course-wrapper > .row.sidebar-wrapper > .col-lg-3 {
+  transition: all 0.5s ease;
+}
+@media screen and (min-width: 992px) {
+  #snap-course-wrapper > .row.sidebar-wrapper {
+    position: relative;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper > .col-lg-9 {
+    position: relative;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-3 {
+    margin-left: -30%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 {
+    max-width: 100%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 #region-main {
+    max-width: 95%;
+  }
+  #snap-course-wrapper > .row.sidebar-wrapper.toggled > .col-lg-9 #region-main .course-content {
+    max-width: 100%;
+  }
+  #snap-course-wrapper div#collapse-left-menu {
+    display: block;
+    position: absolute;
+    top: 1.6em;
+    left: 0.3em;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  #snap-course-wrapper div#collapse-left-menu svg {
+    margin-left: 15px;
+  }
+}
+
+div#collapse-left-menu {
+  display: none;
+}/*# sourceMappingURL=features.css.map */
