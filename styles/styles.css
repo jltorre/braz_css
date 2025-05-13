@@ -680,4 +680,19 @@
 .theme-snap .snap-home-course .card-header {
   padding: 0.5rem 0;
   border: none;
+}
+.theme-snap .snap-home-course .favouriteicon {
+  padding-right: 40px;
+}
+.theme-snap .snap-home-course:hover {
+  position: relative;
+  box-shadow: none;
+}
+.theme-snap .snap-home-course:hover .card-header {
+  padding: 0.5rem;
+  border: none;
+  margin-left: -0.75rem;
+  width: calc(100% + 1.5rem);
+  border-bottom-left-radius: var(--border-btn-radius);
+  border-bottom-right-radius: var(--border-btn-radius);
 }/*# sourceMappingURL=styles.css.map */
