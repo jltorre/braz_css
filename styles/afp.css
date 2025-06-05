@@ -15,7 +15,7 @@ body#page-local-afp-index #region-main {
   padding: 0 !important;
 }
 body#page-local-afp-index #region-main .afp-wrapper {
-  padding-top: 4em;
+  /*padding-top: 4em;*/
   /* PADDING */
   /* END PADDING */
 }
