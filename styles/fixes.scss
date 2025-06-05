@@ -17,5 +17,11 @@
     }
     #mr-nav #snap-custom-menu-header nav.navbar {
         background-color: var(--brand-primary);
+        li.nav-item a {
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 }

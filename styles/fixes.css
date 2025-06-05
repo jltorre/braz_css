@@ -12,4 +12,10 @@
 }
 .theme-snap #mr-nav #snap-custom-menu-header nav.navbar {
   background-color: var(--brand-primary);
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar li.nav-item a {
+  color: #fff;
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar li.nav-item a:hover {
+  color: #fff;
 }/*# sourceMappingURL=fixes.css.map */
