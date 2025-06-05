@@ -74,7 +74,7 @@ body#page-local-afp-index #region-main .afp-wrapper .afp-subheader-opencourses h
 }
 body#page-local-afp-index #region-main .afp-wrapper .afp-subheader-opencourses .opencourses-tags .opencourses-tag.active {
   background: #fff;
-  color: var(--primary);
+  color: var(--brand-primary);
   border-radius: var(--border-tab-radius);
 }
 body#page-local-afp-index #region-main .afp-wrapper .course-card {
@@ -94,10 +94,10 @@ body#page-local-afp-index #region-main .afp-wrapper .course-card .course-image-c
   margin-bottom: 0;
   padding: 1em 1em 1.5em;
   background: #fff;
-  color: var(--primary);
+  color: var(--brand-primary);
 }
 body#page-local-afp-index #region-main .afp-wrapper .course-card .course-image-container .course-info .course-title .progress-text, body#page-local-afp-index #region-main .afp-wrapper .course-card .course-image-container .course-info .progress-container .progress-text {
-  color: var(--primary);
+  color: var(--brand-primary);
 }
 body#page-local-afp-index #region-main .afp-wrapper .course-card .course-image-container .course-info .course-title {
   min-height: 80px;

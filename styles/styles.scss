@@ -20,7 +20,7 @@
 
 .theme-snap {
     #mr-nav {
-        background-color: var(--primary);
+        background-color: var(--brand-primary);
         #snap-header {
             #snap-pm-trigger.snap-my-courses-menu, .snap-login-button {
                 background-color: var(--secondary) !important;
@@ -54,17 +54,17 @@
         .usermenu {
             .dropdown {
                 a.dropdown-item {
-                    color: var(--primary);
+                    color: var(--brand-primary);
                     &:hover, &:focus-within, &:focus-within, &:active {
                         background-color: var(--gray);
-                        color: var(--primary);
+                        color: var(--brand-primary);
                     }
                 }
             }
         }
         .conversation_badge_count,
         .count-container {
-            color: var(--primary) !important;
+            color: var(--brand-primary) !important;
         }
         #snap-custom-menu-header {
             nav.navbar {
@@ -120,7 +120,7 @@
                         padding: 1rem!important;
                     }
                     h5 {
-                        background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+                        background-image: linear-gradient(to right, var(--brand-primary), var(--primary-light));
                         color: #fff;
                         display: block !important;
                     }
@@ -223,7 +223,7 @@
     #snap-pm {
         background-color: var(--light-gray);
         #snap-pm-header {
-            background-color: var(--primary);
+            background-color: var(--brand-primary);
         }
         #snap-pm-updates {
             background-color: #fff;
@@ -301,7 +301,7 @@
             }
             .snap-visible-section {
                 a {
-                    color: var(--primary);
+                    color: var(--brand-primary);
                     text-decoration: none;
                     font-weight: 500 !important;
                 }
@@ -619,7 +619,7 @@
                         padding: 1rem!important;
                     }
                     h5 {
-                        background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+                        background-image: linear-gradient(to right, var(--brand-primary), var(--primary-light));
                         color: #fff;
                         display: block !important;
                     }

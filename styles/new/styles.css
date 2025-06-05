@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&display=swap");
 :root {
-  --primary: #192e4d;
   --primary-light: #184475;
   --secondary: #FF931E;
   --secondary-hover: #c97011;
@@ -13,7 +12,7 @@
 }
 
 .theme-snap #mr-nav {
-  background-color: var(--primary);
+  background-color: var(--brand-primary);
 }
 .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {
   background-color: var(--secondary) !important;
@@ -43,15 +42,15 @@
   color: #fff !important;
 }
 .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item {
-  color: var(--primary);
+  color: var(--brand-primary);
 }
 .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:hover, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:focus-within, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:focus-within, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:active {
   background-color: var(--gray);
-  color: var(--primary);
+  color: var(--brand-primary);
 }
 .theme-snap #mr-nav .conversation_badge_count,
 .theme-snap #mr-nav .count-container {
-  color: var(--primary) !important;
+  color: var(--brand-primary) !important;
 }
 .theme-snap #mr-nav #snap-custom-menu-header nav.navbar {
   background-color: var(--gray) !important;
@@ -103,7 +102,7 @@
   padding: 1rem !important;
 }
 .theme-snap#page-site-index #block-region-side-pre section.block .card-body h5 {
-  background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+  background-image: linear-gradient(to right, var(--brand-primary), var(--primary-light));
   color: #fff;
   display: block !important;
 }
@@ -207,7 +206,7 @@
   background-color: var(--light-gray);
 }
 .theme-snap #snap-pm #snap-pm-header {
-  background-color: var(--primary);
+  background-color: var(--brand-primary);
 }
 .theme-snap #snap-pm #snap-pm-updates {
   background-color: #fff;
@@ -288,7 +287,7 @@
   font-weight: 300;
 }
 .theme-snap #snap-course-wrapper #course-toc .snap-visible-section a {
-  color: var(--primary);
+  color: var(--brand-primary);
   text-decoration: none;
   font-weight: 500 !important;
 }
@@ -596,7 +595,7 @@
   padding: 1rem !important;
 }
 .theme-snap.pagelayout-course .block-region .block .card-body h5 {
-  background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+  background-image: linear-gradient(to right, var(--brand-primary), var(--primary-light));
   color: #fff;
   display: block !important;
 }

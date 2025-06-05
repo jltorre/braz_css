@@ -85,7 +85,7 @@ body#page-local-afp-index {
                 .opencourses-tags {
                     .opencourses-tag.active {
                         background: #fff;
-                        color: var(--primary);
+                        color: var(--brand-primary);
                         border-radius: var(--border-tab-radius);
                     }
                 }
@@ -104,9 +104,9 @@ body#page-local-afp-index {
                             margin-bottom: 0;
                             padding: 1em 1em 1.5em;
                             background: #fff;
-                            color: var(--primary);
+                            color: var(--brand-primary);
                             .progress-text { 
-                                color: var(--primary);
+                                color: var(--brand-primary);
                             }
                         }
                         .course-title {

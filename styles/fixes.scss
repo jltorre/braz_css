@@ -13,4 +13,7 @@
             padding: 0 3rem;
         }
     }
+    .snap-sidebar-menu.show {
+        background-color: var(--brand-primary);
+    }
 }
