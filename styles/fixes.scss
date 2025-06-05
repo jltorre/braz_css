@@ -3,6 +3,9 @@
         border-radius: var(--border-btn-radius) !important;
         padding-left: 1.35rem !important;
         padding-right: 1.35rem !important;
+        &:focus, &:active, &:hover {
+            border-radius: var(--border-btn-radius) !important;
+        }
     }
     #snap-course-wrapper:not(.toggled) {
         > .col-lg-3 {

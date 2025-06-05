@@ -3,6 +3,9 @@
   padding-left: 1.35rem !important;
   padding-right: 1.35rem !important;
 }
+.theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:focus, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:active, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:hover {
+  border-radius: var(--border-btn-radius) !important;
+}
 .theme-snap #snap-course-wrapper:not(.toggled) > .col-lg-3 {
   max-width: 500px;
 }
