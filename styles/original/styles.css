@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&display=swap");
+:root {
+  --primary: #192e4d;
+  --primary-light: #184475;
+  --secondary: #FF931E;
+  --secondary-hover: #c97011;
+  --gray: #D8D8D8;
+  --dark-gray: #c1c1c1;
+  --light-gray: #F1F7FC;
+  --light-gray-hover: #e4ecf2;
+  --box-border-color: #EAEAEA;
+  --border-card-radius: 2px;
+}
+
+.theme-snap #mr-nav {
+  background-color: var(--primary);
+}
+.theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {
+  background-color: var(--secondary) !important;
+  font-size: 16px;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 6px !important;
+}
+@media (max-width: 575.98px) {
+  .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu span {
+    display: block;
+    max-width: 85px;
+    word-wrap: break-word;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+.theme-snap #mr-nav .snap-login-button {
+  background-color: var(--secondary) !important;
+  border: none;
+}
+.theme-snap #mr-nav .snap-login-button:hover {
+  background-color: var(--secondary-hover) !important;
+  outline: none;
+}
+.theme-snap #mr-nav .editmode-switch-form .input-group label {
+  color: #fff !important;
+}
+.theme-snap #mr-nav .usermenu .dropdown a.dropdown-item {
+  color: var(--primary);
+}
+.theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:hover, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:focus-within, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:focus-within, .theme-snap #mr-nav .usermenu .dropdown a.dropdown-item:active {
+  background-color: var(--gray);
+  color: var(--primary);
+}
+.theme-snap #mr-nav .conversation_badge_count,
+.theme-snap #mr-nav .count-container {
+  color: var(--primary) !important;
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar {
+  background-color: var(--gray) !important;
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar li.nav-item a {
+  color: #000 !important;
+  font-size: 0.85em;
+  height: 45px !important;
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar li.nav-item a:hover {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+.theme-snap#page-login-index #page {
+  background-size: cover;
+}
+.theme-snap#page-login-index #page .snap-login-option {
+  border-radius: var(--border-card-radius);
+}
+.theme-snap#page-login-index #page #snap-signup a.btn {
+  background-color: var(--secondary) !important;
+  border: none;
+}
+.theme-snap#page-login-index #page #snap-signup a.btn:hover {
+  background-color: var(--secondary-hover) !important;
+  outline: none;
+}
+.theme-snap#page-site-index {
+  background-color: var(--light-gray);
+}
+@media (min-width: 992px) {
+  .theme-snap#page-site-index #page-header, .theme-snap#page-site-index .carousel-slide {
+    min-height: 480px;
+  }
+}
+.theme-snap#page-site-index #region-main-box {
+  background-color: #fff;
+}
+.theme-snap#page-site-index #block-region-side-pre {
+  -moz-column-count: 1;
+       column-count: 1;
+  padding-top: 3rem;
+}
+.theme-snap#page-site-index #block-region-side-pre section.block .card-body {
+  background-color: #fff;
+  border: 1px solid var(--box-border-color);
+  padding: 0 !important;
+}
+.theme-snap#page-site-index #block-region-side-pre section.block .card-body > h5, .theme-snap#page-site-index #block-region-side-pre section.block .card-body > .card-text {
+  padding: 1rem !important;
+}
+.theme-snap#page-site-index #block-region-side-pre section.block .card-body h5 {
+  background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+  color: #fff;
+  display: block !important;
+}
+.theme-snap#page-site-index .sitetopic {
+  display: none;
+}
+.theme-snap #snap-site-carousel .carousel-slide {
+  margin-top: 2em;
+}
+.theme-snap #snap-site-carousel .carousel-slide .carousel-caption {
+  display: block !important;
+  margin-top: 0;
+  background: none;
+  top: 10vh;
+}
+.theme-snap #snap-site-carousel .carousel-slide .carousel-caption h1, .theme-snap #snap-site-carousel .carousel-slide .carousel-caption p {
+  font-family: "Exo 2", sans-serif !important;
+}
+.theme-snap #snap-site-carousel .carousel-slide .carousel-caption h1 {
+  font-size: 3.6em;
+}
+.theme-snap #snap-site-carousel .carousel-slide .carousel-caption p {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+@media (max-width: 1460px) {
+  .theme-snap #snap-site-carousel .carousel-slide .carousel-caption {
+    width: 90%;
+  }
+  .theme-snap #snap-site-carousel .carousel-slide .carousel-caption h1 {
+    font-size: 3em;
+  }
+  .theme-snap #snap-site-carousel .carousel-slide .carousel-caption p {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 1200px) {
+  .theme-snap #snap-site-carousel .carousel-slide .carousel-caption h1 {
+    font-size: 2.5em;
+  }
+  .theme-snap #snap-site-carousel .carousel-slide .carousel-caption p {
+    font-size: 1.2em;
+  }
+}
+.theme-snap #snap-feature-spots {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .theme-snap #snap-feature-spots {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .theme-snap #snap-feature-spots {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .theme-snap #snap-feature-spots {
+    max-width: 1140px;
+  }
+}
+.theme-snap #snap-feature-spots [id^=snap-feature-] {
+  padding: 15px;
+}
+.theme-snap #snap-feature-spots .snap-feature {
+  padding: 0 !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0;
+  aspect-ratio: 1/0.75;
+}
+.theme-snap #snap-feature-spots .snap-feature .snap-feature-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.theme-snap #snap-feature-spots .snap-feature .snap-feature-block .snap-feature-image-wrap {
+  display: none;
+}
+.theme-snap #snap-feature-spots .snap-feature .snap-feature-block h3.snap-feature-title, .theme-snap #snap-feature-spots .snap-feature .snap-feature-block .snap-feature-link {
+  bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  background: none;
+}
+.theme-snap #snap-pm {
+  background-color: var(--light-gray);
+}
+.theme-snap #snap-pm #snap-pm-header {
+  background-color: var(--primary);
+}
+.theme-snap #snap-pm #snap-pm-updates {
+  background-color: #fff;
+  border-top: 5px solid var(--secondary);
+  padding-top: 0;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(210, 210, 210, 0.12), 0 9px 23px rgba(72, 72, 72, 0.1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: var(--border-card-radius);
+}
+.theme-snap #snap-pm #snap-pm-updates h2 {
+  padding: 5px 0;
+  margin-top: 1em;
+  font-weight: 600;
+}
+.theme-snap #snap-pm #snap-pm-updates section {
+  border-bottom: 1px solid var(--box-border-color);
+  padding: 20px 10px;
+}
+.theme-snap #snap-pm #snap-pm-updates section:last-child {
+  border-bottom: none;
+}
+.theme-snap #snap-pm #snap-pm-courses-current-cards {
+  margin-top: 0;
+}
+.theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard {
+  height: 350px;
+  width: 100%;
+  margin: 10px 0;
+}
+.theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard:hover {
+  box-shadow: 0 2px 10px 0 #6c757d, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard .coursecard-contacts {
+  position: initial;
+  text-align: left;
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard {
+    width: 48%;
+    margin: 10px 1%;
+  }
+}
+@media (min-width: 1024px) {
+  .theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard {
+    width: 31.3%;
+    margin: 10px 1%;
+  }
+}
+@media (min-width: 1600px) {
+  .theme-snap #snap-pm #snap-pm-courses-current-cards .coursecard {
+    width: 23%;
+    margin: 10px 1%;
+  }
+}
+.theme-snap #snap-course-wrapper {
+  margin: 0;
+}
+.theme-snap #snap-course-wrapper #course-toc #toc-desktop-menu-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.theme-snap #snap-course-wrapper #course-toc .snap-section-complete {
+  width: 0.8em;
+  height: 0.8em;
+}
+.theme-snap #snap-course-wrapper #course-toc #chapters .chapter-title {
+  line-height: 1.5;
+  font-size: 0.9em;
+  font-weight: 400 !important;
+}
+.theme-snap #snap-course-wrapper #course-toc #chapters li {
+  padding-bottom: 1em;
+  line-height: 1;
+  font-weight: 300;
+}
+.theme-snap #snap-course-wrapper #course-toc .snap-visible-section a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500 !important;
+}
+.theme-snap #snap-course-wrapper #course-toc li.snap-visible-section {
+  background-color: #fff;
+  padding: 15px 0 0 20px;
+  margin: 0 0 1em;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+.theme-snap #snap-course-wrapper #course-toc li.snap-visible-section::after {
+  content: "";
+  width: 5px;
+  position: absolute;
+  left: 0;
+  background: var(--secondary);
+  top: 50%;
+  margin-top: -19px;
+  height: 35px;
+}
+.theme-snap #snap-course-wrapper .section_footer {
+  margin-top: 2em;
+  padding: 0 !important;
+  background-color: var(--light-gray);
+  height: auto;
+  display: flex;
+  border-radius: 7px;
+  border: 1px solid var(--box-border-color) !important;
+  display: inline-block;
+  width: 100%;
+}
+.theme-snap #snap-course-wrapper #toc-desktop-menu-heading {
+  border-bottom: 0px solid var(--box-border-color);
+}
+.theme-snap #snap-course-wrapper .row {
+  display: inline-flex;
+  margin: 0 !important;
+  width: 100%;
+}
+.theme-snap #snap-course-wrapper #chapters {
+  overflow: hidden;
+}
+.theme-snap #snap-course-wrapper #chapters li.draft .chapter-title:before {
+  display: none;
+}
+.theme-snap #snap-course-wrapper .col-lg-3 {
+  background-color: var(--light-gray);
+}
+@media (min-width: 992px) {
+  .theme-snap #snap-course-wrapper .col-lg-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-left: 0;
+    padding-left: 4%;
+    padding-right: 0;
+  }
+}
+@media (min-width: 992px) {
+  .theme-snap #snap-course-wrapper .col-lg-9 {
+    flex: 0 0 100%;
+    max-width: 70%;
+    padding-left: 0%;
+  }
+}
+.theme-snap #snap-course-wrapper .toc-footer {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.theme-snap .course-content {
+  max-width: 60em;
+}
+.theme-snap .course-content h2.sectionname {
+  padding-left: 20px;
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.theme-snap .course-content h2.sectionname:after {
+  content: "";
+  width: 4px;
+  position: absolute;
+  left: 0;
+  background: var(--secondary);
+  top: 50%;
+  margin-top: -19px;
+  height: 35px;
+}
+.theme-snap#page-enrol-programs-catalogue-index .programbox {
+  background-color: #fff;
+}
+.theme-snap#page-enrol-programs-catalogue-program, .theme-snap#page-enrol-programs-catalogue-index, .theme-snap#page-enrol-programs-my-program {
+  background-color: var(--light-gray);
+}
+.theme-snap#page-enrol-programs-catalogue-program #region-main, .theme-snap#page-enrol-programs-catalogue-index #region-main, .theme-snap#page-enrol-programs-my-program #region-main {
+  background-color: unset;
+}
+.theme-snap#page-enrol-programs-catalogue-program h1, .theme-snap#page-enrol-programs-catalogue-index h1, .theme-snap#page-enrol-programs-my-program h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.theme-snap#page-enrol-programs-catalogue-program .snap-page-heading-button,
+.theme-snap#page-enrol-programs-catalogue-program .programbox dl.row, .theme-snap#page-enrol-programs-catalogue-index .snap-page-heading-button,
+.theme-snap#page-enrol-programs-catalogue-index .programbox dl.row, .theme-snap#page-enrol-programs-my-program .snap-page-heading-button,
+.theme-snap#page-enrol-programs-my-program .programbox dl.row {
+  display: none;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox, .theme-snap#page-enrol-programs-catalogue-index .programbox, .theme-snap#page-enrol-programs-my-program .programbox {
+  padding: 0;
+  margin-bottom: 3rem;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox a .content .summary, .theme-snap#page-enrol-programs-catalogue-index .programbox a .content .summary, .theme-snap#page-enrol-programs-my-program .programbox a .content .summary {
+  padding: 0 1rem;
+  font-size: 0.8em;
+  opacity: 0.85;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .newprogramimage, .theme-snap#page-enrol-programs-catalogue-index .programbox .newprogramimage, .theme-snap#page-enrol-programs-my-program .programbox .newprogramimage {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  min-height: 150px;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox > h3, .theme-snap#page-enrol-programs-catalogue-index .programbox > h3, .theme-snap#page-enrol-programs-my-program .programbox > h3 {
+  font-size: 1.25rem;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox > .info, .theme-snap#page-enrol-programs-catalogue-index .programbox > .info, .theme-snap#page-enrol-programs-my-program .programbox > .info {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: var(--border-card-radius);
+  margin-bottom: 2rem;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox > .info .programname, .theme-snap#page-enrol-programs-catalogue-index .programbox > .info .programname, .theme-snap#page-enrol-programs-my-program .programbox > .info .programname {
+  font-size: 1.5rem;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox > .info .summary, .theme-snap#page-enrol-programs-catalogue-index .programbox > .info .summary, .theme-snap#page-enrol-programs-my-program .programbox > .info .summary {
+  font-size: 0.8em;
+  opacity: 0.85;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .generaltable, .theme-snap#page-enrol-programs-catalogue-index .programbox .generaltable, .theme-snap#page-enrol-programs-my-program .programbox .generaltable {
+  background-color: #fff;
+  border-bottom: 2px solid #dee2e6;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .generaltable thead th, .theme-snap#page-enrol-programs-catalogue-index .programbox .generaltable thead th, .theme-snap#page-enrol-programs-my-program .programbox .generaltable thead th {
+  background-color: var(--gray);
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .generaltable tr, .theme-snap#page-enrol-programs-catalogue-index .programbox .generaltable tr, .theme-snap#page-enrol-programs-my-program .programbox .generaltable tr {
+  background-color: unset;
+  border: none;
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .generaltable tr:hover, .theme-snap#page-enrol-programs-catalogue-index .programbox .generaltable tr:hover, .theme-snap#page-enrol-programs-my-program .programbox .generaltable tr:hover {
+  background-color: var(--light-gray);
+}
+.theme-snap#page-enrol-programs-catalogue-program .programbox .generaltable tr td, .theme-snap#page-enrol-programs-catalogue-index .programbox .generaltable tr td, .theme-snap#page-enrol-programs-my-program .programbox .generaltable tr td {
+  border: none;
+}
+.theme-snap#page-enrol-programs-my-index #region-main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.theme-snap#page-enrol-programs-my-index #region-main .generaltable {
+  border-bottom: 2px solid #dee2e6;
+}
+.theme-snap .course-content ul.section li.snap-activity,
+.theme-snap .course-content ul.section li.snap-resource {
+  border-radius: 6px;
+  border: 1px solid var(--box-border-color);
+}
+.theme-snap .course-content ul.section li.snap-activity .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource .snap-assettype {
+  font-weight: bold;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_forum:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_chat:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_hsuforum:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_forum:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_chat:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_hsuforum:hover {
+  border-color: #8bc34a;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_forum .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_chat .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_hsuforum .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_forum .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_chat .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_hsuforum .snap-assettype {
+  color: #8bc34a;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_assign:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_assignment:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_workshop:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_assign:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_assignment:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_workshop:hover {
+  border-color: #03a9f4;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_assign .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_assignment .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_workshop .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_assign .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_assignment .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_workshop .snap-assettype {
+  color: #03a9f4;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_choice:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_feedback:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_quiz:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_survey:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_questionnaire:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_lesson:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_choice:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_feedback:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_quiz:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_survey:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_questionnaire:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_lesson:hover {
+  border-color: #ffa000;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_choice .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_feedback .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_quiz .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_survey .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_questionnaire .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_lesson .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_choice .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_feedback .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_quiz .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_survey .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_questionnaire .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_lesson .snap-assettype {
+  color: #ffa000;
+}
+.theme-snap .course-content ul.section li.snap-activity.snap-mime-pdf:hover, .theme-snap .course-content ul.section li.snap-activity.snap-mime-flash:hover, .theme-snap .course-content ul.section li.snap-activity.snap-mime-eps:hover,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-pdf:hover,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-flash:hover,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-eps:hover {
+  border-color: #f44336;
+}
+.theme-snap .course-content ul.section li.snap-activity.snap-mime-pdf .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.snap-mime-flash .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.snap-mime-eps .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-pdf .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-flash .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.snap-mime-eps .snap-assettype {
+  color: #f44336;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_data:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_glossary:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_wiki:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_data:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_glossary:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_wiki:hover {
+  border-color: #009688;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_data .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_glossary .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_wiki .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_data .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_glossary .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_wiki .snap-assettype {
+  color: #009688;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_imscp:hover, .theme-snap .course-content ul.section li.snap-activity.modtype_scorm:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_imscp:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_scorm:hover {
+  border-color: #f7981d;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_imscp .snap-assettype, .theme-snap .course-content ul.section li.snap-activity.modtype_scorm .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_imscp .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_scorm .snap-assettype {
+  color: #f7981d;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_folder:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_folder:hover {
+  border-color: #fed859;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_folder .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_folder .snap-assettype {
+  color: #fed859;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_url:hover,
+.theme-snap .course-content ul.section li.snap-resource.modtype_url:hover {
+  border-color: #999999;
+}
+.theme-snap .course-content ul.section li.snap-activity.modtype_url .snap-assettype,
+.theme-snap .course-content ul.section li.snap-resource.modtype_url .snap-assettype {
+  color: #999999;
+}
+.theme-snap #coursetools-list li {
+  background-color: var(--light-gray);
+  border: 1px solid var(--box-border-color);
+  box-shadow: none;
+}
+.theme-snap #coursetools-list li a {
+  font-size: 0.9em;
+}
+.theme-snap #coursetools-list li:hover {
+  background-color: var(--light-gray-hover);
+}
+.theme-snap #coursetools-list li:hover a {
+  color: #000;
+  font-size: 0.9em;
+}
+.theme-snap #snap-course-wrapper .section_footer .text {
+  font-size: 0.9em;
+}
+.theme-snap #snap-course-wrapper .section_footer .nav_icon {
+  width: 50px;
+  padding: 0.3em 0;
+}
+.theme-snap #snap-course-wrapper .section_footer .nav_icon .icon-arrow-left:before,
+.theme-snap #snap-course-wrapper .section_footer .nav_icon .icon-arrow-right:before {
+  height: 0.5em;
+  margin: 0.3em auto;
+}
+.theme-snap.pagelayout-course .block-region .block .card-body {
+  background-color: #fff;
+  border: 1px solid var(--box-border-color);
+  padding: 0 !important;
+}
+.theme-snap.pagelayout-course .block-region .block .card-body > h5, .theme-snap.pagelayout-course .block-region .block .card-body > .card-text {
+  padding: 1rem !important;
+}
+.theme-snap.pagelayout-course .block-region .block .card-body h5 {
+  background-image: linear-gradient(to right, var(--primary), var(--primary-light));
+  color: #fff;
+  display: block !important;
+}
+.theme-snap #snap-course-footer {
+  margin-top: 0;
+}
+.theme-snap #moodle-footer {
+  padding: 0;
+}
+.theme-snap #moodle-footer #snap-footer-content {
+  background: #184170;
+  padding-bottom: 0;
+}
+.theme-snap #moodle-footer .bottom-footer {
+  background-color: #01011b;
+  font-size: 0.8em;
+}
+.theme-snap #moodle-footer #mrooms-footer, .theme-snap #moodle-footer #page-footer {
+  display: none;
+}
+.theme-snap #moodle-footer .langmenu {
+  margin-bottom: 10px;
+}
+.theme-snap #moodle-footer .app-icons {
+  font-size: 3em;
+}
+.theme-snap #moodle-footer article {
+  font-size: 0.9em;
+}
+.theme-snap #moodle-footer article a {
+  font-weight: 100;
+}
+.theme-snap #moodle-footer ul.menu-social {
+  list-style: none;
+  padding: 0;
+}
+.theme-snap #moodle-footer ul.menu-social li {
+  margin: 0 0.5rem !important;
+}
+.theme-snap #moodle-footer .chatbot {
+  position: fixed;
+  z-index: 99999999;
+}
+.theme-snap #moodle-footer .ccw_plugin {
+  position: fixed;
+  z-index: 99999999;
+}
+.theme-snap #moodle-footer .ccw_plugin .inline {
+  display: inline;
+}
+.theme-snap #moodle-footer .ccw_plugin .style-4.chip {
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 25px;
+  font-size: 13px;
+  line-height: 32px;
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+}
+.theme-snap #moodle-footer .ccw_plugin .style-4.chip img {
+  float: left;
+  margin: 0 8px 0 -12px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}/*# sourceMappingURL=styles.css.map */
