@@ -1,6 +1,8 @@
 .theme-snap {
     #mr-nav #snap-pm-trigger.snap-my-courses-menu {
-        border-radius: var(--border-btn-radius);
+        border-radius: var(--border-btn-radius) !important;
+        padding-left: 1.35rem !important;
+        padding-right: 1.35rem !important;
     }
     #snap-course-wrapper:not(.toggled) {
         > .col-lg-3 {
