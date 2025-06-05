@@ -85,24 +85,28 @@ body#page-local-afp-index {
                 border-radius: var(--border-card-radius);
                 overflow: hidden;
                 box-shadow: 0 3px 35px rgba(0,0,0,.16);
-                .course-info {
-                    padding-bottom: 0;
-                    background: unset;
-                    .course-title, .progress-container {
-                        margin-bottom: 0;
-                        padding: 1em 1em 1.5em;
-                        background: #fff;
-                        color: var(--primary);
-                        .progress-text { 
+                width: 230px;;
+                .course-image-container {
+                    height: 275px;
+                    .course-info {
+                        padding-bottom: 0;
+                        background: unset;
+                        .course-title, .progress-container {
+                            margin-bottom: 0;
+                            padding: 1em 1em 1.5em;
+                            background: #fff;
                             color: var(--primary);
+                            .progress-text { 
+                                color: var(--primary);
+                            }
                         }
-                    }
-                    .course-title {
-                        min-height: 80px;
-                    }
-                    .progress-container {
-                        margin-top: -1em;
-                        padding: 0.5em 1em .75em !important;
+                        .course-title {
+                            min-height: 80px;
+                        }
+                        .progress-container {
+                            margin-top: -1em;
+                            padding: 0.5em 1em .75em !important;
+                        }
                     }
                 }
             }
