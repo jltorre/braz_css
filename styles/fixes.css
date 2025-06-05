@@ -9,4 +9,7 @@
 }
 .theme-snap .snap-sidebar-menu.show {
   background-color: var(--brand-primary);
+}
+.theme-snap #mr-nav #snap-custom-menu-header nav.navbar {
+  background-color: var(--brand-primary);
 }/*# sourceMappingURL=fixes.css.map */
