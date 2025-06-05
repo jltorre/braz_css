@@ -17,11 +17,11 @@
         background-color: var(--brand-primary);
     }
     #mr-nav #snap-custom-menu-header nav.navbar {
-        background-color: var(--brand-primary);
+        background-color: var(--brand-primary) !important;
         li.nav-item a {
-            color: #fff;
+            color: #fff !important;
             &:hover {
-                color: #fff;
+                color: #fff !important;
             }
         }
     }
