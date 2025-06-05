@@ -4,9 +4,6 @@
 .theme-snap #snap-course-wrapper .col-lg-3 {
   max-width: 500px;
 }
-.theme-snap .theme-snap .course-content ul.section li.snap-activity {
-  border: 1px solid var(--box-border-color);
-}
 .theme-snap .course-content ul.sections {
   padding: 0 3rem;
 }
