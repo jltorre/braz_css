@@ -96,7 +96,9 @@
 }
 .theme-snap#page-site-index #block-region-side-pre section.block .card-body {
   background-color: #fff;
-  border: 1px solid var(--box-border-color);
+  border-left: 1px solid var(--box-border-color);
+  border-right: 1px solid var(--box-border-color);
+  border-top: 1px solid var(--box-border-color);
   padding: 0 !important;
 }
 .theme-snap#page-site-index #block-region-side-pre section.block .card-body > h5, .theme-snap#page-site-index #block-region-side-pre section.block .card-body > .card-text {
