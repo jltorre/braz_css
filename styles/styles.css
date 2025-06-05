@@ -466,7 +466,6 @@
 .theme-snap .course-content ul.section li.snap-activity,
 .theme-snap .course-content ul.section li.snap-resource {
   border-radius: 6px;
-  border: 1px solid var(--box-border-color);
 }
 .theme-snap .course-content ul.section li.snap-activity .snap-assettype,
 .theme-snap .course-content ul.section li.snap-resource .snap-assettype {
