@@ -2,8 +2,10 @@
     #mr-nav #snap-pm-trigger.snap-my-courses-menu {
         border-radius: var(--border-btn-radius);
     }
-    #snap-course-wrapper .col-lg-3 {
-        max-width: 500px;
+    #snap-course-wrapper:not(.toggled) {
+        > .col-lg-3 {
+            max-width: 500px;
+        }
     }
     .course-content {
         ul.sections {
