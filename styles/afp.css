@@ -1,4 +1,14 @@
 /* AFP */
+:root {
+  --border-card-radius: 40px;
+  --border-tab-radius: 20px;
+  --border-btn-radius: 30px;
+  --padding-x: 5rem;
+  --padding-y: 2rem;
+  --padding-x-xs: 2rem;
+  --padding-y-xs: 1rem;
+}
+
 body#page-local-afp-index #region-main {
   max-width: 100%;
   margin: 0 !important;

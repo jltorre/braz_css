@@ -116,6 +116,7 @@
 }
 .theme-snap #snap-site-carousel .carousel-slide {
   margin-top: 2em;
+  padding-top: 2em;
 }
 .theme-snap #snap-site-carousel .carousel-slide .carousel-caption {
   display: block !important;
