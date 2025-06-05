@@ -5,10 +5,10 @@
   max-width: 500px;
 }
 .theme-snap .course-content {
-  padding: 0;
+  padding: 0 3rem;
 }
 .theme-snap .course-content ul.sections {
-  padding: 0 3rem;
+  padding: 0;
 }
 .theme-snap .snap-sidebar-menu.show {
   background-color: var(--brand-primary);
