@@ -1,0 +1,6 @@
+.theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {
+  border-radius: var(--border-btn-radius);
+}
+.theme-snap #snap-course-wrapper .col-lg-3 {
+  max-width: 500px;
+}/*# sourceMappingURL=fixes.css.map */
