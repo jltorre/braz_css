@@ -385,6 +385,9 @@
   margin-top: -19px;
   height: 35px;
 }
+.theme-snap .course-content ul.sections {
+  padding: 0 2rem;
+}
 .theme-snap#page-enrol-programs-catalogue-index .programbox {
   background-color: #fff;
 }
