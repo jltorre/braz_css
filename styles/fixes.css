@@ -1,7 +1,11 @@
-.theme-snap .btn, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {
+.theme-snap .btn,
+.theme-snap #mr-nav #snap-header .float-right.js-only #snap-pm-trigger.snap-my-courses-menu {
   border-radius: var(--border-btn-radius) !important;
 }
-.theme-snap .btn:focus, .theme-snap .btn:active, .theme-snap .btn:hover, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:focus, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:active, .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu:hover {
+.theme-snap .btn:focus, .theme-snap .btn:active, .theme-snap .btn:hover,
+.theme-snap #mr-nav #snap-header .float-right.js-only #snap-pm-trigger.snap-my-courses-menu:focus,
+.theme-snap #mr-nav #snap-header .float-right.js-only #snap-pm-trigger.snap-my-courses-menu:active,
+.theme-snap #mr-nav #snap-header .float-right.js-only #snap-pm-trigger.snap-my-courses-menu:hover {
   border-radius: var(--border-btn-radius) !important;
 }
 .theme-snap #mr-nav #snap-pm-trigger.snap-my-courses-menu {

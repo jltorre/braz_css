@@ -1,5 +1,6 @@
 .theme-snap {
-    .btn, #mr-nav #snap-pm-trigger.snap-my-courses-menu {
+    .btn, 
+    #mr-nav #snap-header .float-right.js-only #snap-pm-trigger.snap-my-courses-menu {
         border-radius: var(--border-btn-radius) !important;
         &:focus, &:active, &:hover {
             border-radius: var(--border-btn-radius) !important;
